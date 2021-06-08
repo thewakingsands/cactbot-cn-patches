@@ -1,21 +1,22 @@
-diff --git a/resources/user_config.js b/resources/user_config.js
-index 471d728a..a020476e 100644
---- a/resources/user_config.js
-+++ b/resources/user_config.js
-@@ -206,7 +206,7 @@ let UserConfig = {
+diff --git a/resources/user_config.ts b/resources/user_config.ts
+index fbc63237..02ff276d 100644
+--- a/resources/user_config.ts
++++ b/resources/user_config.ts
+@@ -449,7 +449,7 @@ class UserConfig {
        de: '🔓 Entsperrt (Sperre das Overlay vor der Nutzung)',
        fr: '🔓 Débloqué (Bloquez l\'overlay avant utilisation)',
        ja: '🔓 ロック解除 (オーバーレイを使用する前にロックしてください)',
 -      cn: '🔓 已解除锁定 (你需要将此悬浮窗锁定后方可使用)',
 +      cn: '🔓 未锁定（使用前请在插件中勾选锁定悬浮窗）',
+       ko: '🔓 위치 잠금 해제됨 (사용하기 전에 위치 잠금을 설정하세요)',
      };
- 
-     const id = 'cactbot-unlocked-text';
+
+
 diff --git a/ui/raidboss/popup-text.js b/ui/raidboss/popup-text.js
-index 330443d5..606b5cf5 100644
+index 357235e3..ff0e7c09 100644
 --- a/ui/raidboss/popup-text.js
 +++ b/ui/raidboss/popup-text.js
-@@ -27,12 +27,12 @@ const raidbossInstructions = {
+@@ -49,12 +49,12 @@ const raidbossInstructions = {
      'サマーフォード庄に/countdownコマンドを実行し、raidbossをテストできる。',
    ],
    cn: [
@@ -34,11 +35,11 @@ index 330443d5..606b5cf5 100644
    ],
    ko: [
      '<조작 설명>',
-diff --git a/ui/raidboss/timeline.js b/ui/raidboss/timeline.js
-index 77c2f5b7..8744f527 100644
---- a/ui/raidboss/timeline.js
-+++ b/ui/raidboss/timeline.js
-@@ -26,12 +26,12 @@ const timelineInstructions = {
+diff --git a/ui/raidboss/timeline.ts b/ui/raidboss/timeline.ts
+index 645bf76f..e5b16c19 100644
+--- a/ui/raidboss/timeline.ts
++++ b/ui/raidboss/timeline.ts
+@@ -44,12 +44,12 @@ const timelineInstructions = {
      'ラインを動的にロードする。',
    ],
    cn: [

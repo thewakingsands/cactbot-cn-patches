@@ -1,0 +1,22 @@
+diff --git a/ui/radar/radar_config.ts b/ui/radar/radar_config.ts
+index 1e9b1b1c..416dc961 100644
+--- a/ui/radar/radar_config.ts
++++ b/ui/radar/radar_config.ts
+@@ -39,7 +39,7 @@ UserConfig.registerOptions('radar', {
+         ko: '새 몬스터를 TTS로 알림',
+       },
+       type: 'checkbox',
+-      default: false,
++      default: true,
+     },
+     {
+       id: 'PopSoundAlert',
+@@ -52,7 +52,7 @@ UserConfig.registerOptions('radar', {
+         ko: '새 몬스터를 소리로 알림',
+       },
+       type: 'checkbox',
+-      default: true,
++      default: false,
+     },
+     {
+       id: 'PopVolume',
