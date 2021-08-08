@@ -1,11 +1,11 @@
 diff --git a/ui/pullcounter/pullcounter.js b/ui/pullcounter/pullcounter.js
-index dc1b045b..a9f6b878 100644
+index d2379316..d5bdd2a8 100644
 --- a/ui/pullcounter/pullcounter.js
 +++ b/ui/pullcounter/pullcounter.js
 @@ -9,7 +9,8 @@ import '../../resources/defaults.css';
  import './pullcounter.css';
  
- const Options = {
+ const defaultOptions = {
 -  Language: 'en',
 +  Language: 'cn',
 +  ParserLanguage: 'cn',

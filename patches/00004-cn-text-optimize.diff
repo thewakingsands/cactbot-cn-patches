@@ -12,11 +12,11 @@ index fbc63237..02ff276d 100644
      };
 
 
-diff --git a/ui/raidboss/popup-text.js b/ui/raidboss/popup-text.js
-index 357235e3..ff0e7c09 100644
---- a/ui/raidboss/popup-text.js
-+++ b/ui/raidboss/popup-text.js
-@@ -49,12 +49,12 @@ const raidbossInstructions = {
+diff --git a/ui/raidboss/popup-text.ts b/ui/raidboss/popup-text.ts
+index 548001d3..f83dc448 100644
+--- a/ui/raidboss/popup-text.ts
++++ b/ui/raidboss/popup-text.ts
+@@ -94,12 +94,12 @@ const raidbossInstructions: { [lang in Lang]: string[] } = {
      'サマーフォード庄に/countdownコマンドを実行し、raidbossをテストできる。',
    ],
    cn: [
