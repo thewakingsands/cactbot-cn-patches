@@ -1,27 +1,13 @@
-diff --git a/ui/pullcounter/pullcounter.js b/ui/pullcounter/pullcounter.js
-index d2379316..d5bdd2a8 100644
---- a/ui/pullcounter/pullcounter.js
-+++ b/ui/pullcounter/pullcounter.js
-@@ -9,7 +9,8 @@ import '../../resources/defaults.css';
- import './pullcounter.css';
+diff --git a/ui/pullcounter/pullcounter.ts b/ui/pullcounter/pullcounter.ts
+index 26d92f27b..1c1be633c 100644
+--- a/ui/pullcounter/pullcounter.ts
++++ b/ui/pullcounter/pullcounter.ts
+@@ -18,7 +18,7 @@ interface PullCounterOptions extends BaseOptions {
  
- const defaultOptions = {
+ const defaultOptions: PullCounterOptions = {
+   ...UserConfig.getDefaultBaseOptions(),
 -  Language: 'en',
 +  Language: 'cn',
-+  ParserLanguage: 'cn',
  };
  
  // NOTE: do not add more fights to this data structure.
-diff --git a/ui/radar/radar.html b/ui/radar/radar.html
-index 1c154d9d..8b23adcf 100644
---- a/ui/radar/radar.html
-+++ b/ui/radar/radar.html
-@@ -10,7 +10,7 @@
-     <table id="radar-table">
-       <tr class="resize-helper">
-         <th><img id="test-demo" class="radar-image-40" src="arrow.png"></th>
--        <th><div>YOU Distance:0</div></th>
-+        <th><div>泥人 距离:0</div></th>
-       </tr>
-     </table>
-   </div>
