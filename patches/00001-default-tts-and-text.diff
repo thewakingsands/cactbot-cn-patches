@@ -1,7 +1,7 @@
 diff --git a/ui/raidboss/raidboss_config.js b/ui/raidboss/raidboss_config.js
 index 553cdd34..f3e8e016 100644
---- a/ui/raidboss/raidboss_config.js
-+++ b/ui/raidboss/raidboss_config.js
+--- a/ui/raidboss/raidboss_config.ts
++++ b/ui/raidboss/raidboss_config.ts
 @@ -702,7 +702,7 @@ UserConfig.registerOptions('raidboss', {
            '❌ 비활성화': 'disabled',
          },
