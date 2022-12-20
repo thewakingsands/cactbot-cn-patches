@@ -35,11 +35,11 @@ index 548001d3..f83dc448 100644
    ],
    ko: [
      '<조작 설명>',
-diff --git a/ui/raidboss/timeline.ts b/ui/raidboss/timeline.ts
-index 645bf76f..e5b16c19 100644
---- a/ui/raidboss/timeline.ts
-+++ b/ui/raidboss/timeline.ts
-@@ -44,12 +44,12 @@ const timelineInstructions = {
+diff --git a/ui/raidboss/html_timeline_ui.ts b/ui/raidboss/html_timeline_ui.ts
+index 429fd639..50ce0244 100644
+--- a/ui/raidboss/html_timeline_ui.ts
++++ b/ui/raidboss/html_timeline_ui.ts
+@@ -43,12 +43,12 @@ const timelineInstructions = {
      'ラインを動的にロードする。',
    ],
    cn: [
