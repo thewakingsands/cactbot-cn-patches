@@ -1,13 +1,13 @@
-diff --git a/ui/raidboss/raidboss_config.js b/ui/raidboss/raidboss_config.js
-index 553cdd34..f3e8e016 100644
+diff --git a/ui/raidboss/raidboss_config.ts b/ui/raidboss/raidboss_config.ts
+index d3948ad92..9a5086465 100644
 --- a/ui/raidboss/raidboss_config.ts
 +++ b/ui/raidboss/raidboss_config.ts
-@@ -702,7 +702,7 @@ UserConfig.registerOptions('raidboss', {
-           '❌ 비활성화': 'disabled',
-         },
-       },
--      default: 'textAndSound',
-+      default: 'ttsAndText',
-       setterFunc: setOptionsFromOutputValue,
+@@ -1842,7 +1842,7 @@ const defaultAlertOutput: ConfigEntry = {
+       '❌ 비활성화': 'disabled',
      },
-     {
+   },
+-  default: 'textAndSound',
++  default: 'ttsAndText',
+   setterFunc: setOptionsFromOutputValue,
+ } as const;
+ 
