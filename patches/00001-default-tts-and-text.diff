@@ -11,3 +11,16 @@ index d3948ad92..9a5086465 100644
    setterFunc: setOptionsFromOutputValue,
  } as const;
  
+diff --git a/ui/raidboss/raidboss_options.ts b/ui/raidboss/raidboss_options.ts
+index 00f6e4062..4e9396891 100644
+--- a/ui/raidboss/raidboss_options.ts
++++ b/ui/raidboss/raidboss_options.ts
+@@ -93,7 +93,7 @@ const defaultRaidbossNonConfigOptions: RaidbossNonConfigOptions = {
+ // TODO: figure out how to get this type from raidboss_config??
+ // These values are overwritten and are just here for typing.
+ const defaultRaidbossConfigOptions = {
+-  DefaultAlertOutput: 'textAndSound',
++  DefaultAlertOutput: 'ttsAndText',
+   AlertsLanguage: undefined as (Lang | undefined),
+   TimelineLanguage: undefined as (Lang | undefined),
+   TimelineEnabled: true,
