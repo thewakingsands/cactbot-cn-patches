@@ -2,10 +2,11 @@
 
 if [ -d "cactbot" ]; then
   cd cactbot
+  git clean -df
   git fetch main
   git reset --hard FETCH_HEAD
 else
-  git clone git@github.com:quisquous/cactbot.git cactbot
+  git clone git@github.com:OverlayPlugin/cactbot.git cactbot
 fi
 
 cd ..
